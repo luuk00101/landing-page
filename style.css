@@ -138,6 +138,55 @@ p {
   color: #747b84;
 }
 
+.section.quote {
+  background-color: #e5e7eb;
+  color: #262d3a;
+}
+
+.quote .wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  gap: 12px;
+  padding-left: 24px;
+}
+
+.quote .wrapper .text {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.quote .wrapper .author {
+  font-size: 16px;
+  font-weight: 800;
+  align-self: flex-end;
+}
+
+.CTA .wrapper .container {
+  color: white;
+  padding: 48px 84px;
+  background-color: #3882f6;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CTA .title {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.CTA button {
+  color: inherit;
+  font-weight: 800;
+  border: 2px solid white;
+  padding: 8px 16px;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
 .footer {
   color: white;
   padding: 24px;
